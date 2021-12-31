@@ -46,7 +46,7 @@ section p:not(:first-child)::first-letter{
 /* Erste Zeile nicht  */
 section p:not(:first-child)::first-line{
     font-size: 1.5em;
-    color:#68d81d;
+    color:#d8621d;
 }
 /* Erste Zeile nicht - Alternative  */
 /* section p:nth-of-type(1n +2)::first-line{
