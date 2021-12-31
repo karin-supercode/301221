@@ -1,3 +1,6 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 li{
     font-size: 0.8em;
     line-height: 1.5em;
@@ -8,10 +11,32 @@ ul{
 li{
     list-style-type:none ;
 }
-ul li ul li::before{
-content: '🐶';}
-
 section{
     font-size:2rem;
     border:0.5rem solid;
 }
+section ul li ul li ul li::marker{
+    content: ' 🐶';
+}
+
+
+section ul li ul li:nth-of-type(2) ul li::marker{
+    content: ' 🐯';
+}
+
+
+
+
+section ul li:nth-of-type(2) ul li ul li::marker{
+    content: ' 🐣';
+}
+
+
+section ul li:nth-of-type(3) ul li ul li::marker{
+    content: ' 🪱';
+}
+section ul li:nth-of-type(3) ul li:nth-of-type(2) ul li::marker{
+    content: ' 🦎';
+}
+
+
