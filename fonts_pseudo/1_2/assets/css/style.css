@@ -1,0 +1,49 @@
+h3::first-letter{
+    font-size: 3em;
+    color: #00796B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+}
+h3:hover::first-letter{
+
+    color: #4fc3f7;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+}
+ul li:first-of-type::first-letter{
+    font-size: 2em;
+    color:#4fc3f7;
+    text-decoration:overline;
+}
+ul li:nth-of-type(2)::first-letter{
+    font-size: 2em;
+    color:#c51162;
+    text-decoration:underline;
+}
+ul li:nth-of-type(3)::first-letter{
+    font-size: 2em;
+    color:#64dd17;
+}
+ul li:nth-of-type(3){
+
+    text-decoration:line-through;
+}
+section p:nth-of-type(1){
+    color:#1d9ad8;
+    text-indent: 50px;
+}
+section p:nth-of-type(1)::first-line{
+    font-size: 1.3em;
+}
+/* Nicht den ersten Absatz - noch klären */
+section p:not(:first-child):first-letter{
+    font-size: 1.5em;
+    color:#d8291d;
+}
+section p:not(:first-child):first-line{
+    font-size: 1.5em;
+    color:#68d81d;
+}
+
+p:nth-of-type(1n +2):hover::first-line{
+    color:#1d74d8;
+}
+section p:nth-of-type(even){
+    font-weight: 600;
+}

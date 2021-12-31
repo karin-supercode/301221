@@ -1,0 +1,17 @@
+li{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+ul{
+    padding-inline-start: 1.2em;
+}
+li{
+    list-style-type:none ;
+}
+ul li ul li::before{
+content: '🐶';}
+
+section{
+    font-size:2rem;
+    border:0.5rem solid;
+}

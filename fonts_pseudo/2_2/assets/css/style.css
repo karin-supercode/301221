@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fredoka+One&family=Island+Moments&family=Licorice&family=Montserrat:wght@100&family=Pacifico&family=Playfair+Display&family=Press+Start+2P&family=Shizuru&display=swap');
+
+
+/* 
+font-family: 'Chelsea Market', cursive;
+font-family: 'Fredoka One', cursive;
+
+font-family: 'Pacifico', cursive;
+
+font-family: 'Press Start 2P', cursive;
+*/
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: limegreen;
+    line-height: 2em;
+    border-radius: 0.3em;
+    padding: 0 10px;
+}
+p{
+    font-family: 'Fredoka One', cursive;
+}
+p em{
+    font-family: 'Chelsea Market', cursive;
+
+text-shadow: 2px 2px 1px red;
+}    
+/* font-family: 'Pacifico', cursive; */
+a{
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
