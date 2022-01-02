@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Pushster&family=Roboto+Mono:wght@100&family=Roboto:wght@300&family=Shizuru&display=swap');
+
+/* 
+font-family: 'Licorice', cursive;
+font-family: 'Pushster', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Shizuru', cursive; 
+*/
+
+h1{
+  font-family:'Licorice';
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+section p{
+  font-family: 'Pushster';
+}
+main p{
+  font-family: 'Roboto';
+}
+aside p{
+  font-family: 'Roboto Mono';
+}
+nav p{
+  font-family: 'Shizuru';
+}
+footer p{
+  font-family: 'Licorice';
+}
